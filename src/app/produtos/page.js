@@ -49,6 +49,8 @@ export default function Produtos() {
     return (
         < div >
             <h1>Produtos</h1>
+
+            <imput type ="text" placeholder= "Buscar um produto"  ></imput>
             {prods === null ?
                 <p>Carregando lista de produtos...</p> :
                 <div>
